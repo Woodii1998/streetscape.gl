@@ -66,6 +66,8 @@ class LogViewer extends PureComponent {
   constructor(props) {
     super(props);
 
+    console.log('hello coScene this is log viewer')
+
     this.state = {
       viewState: {
         width: 1,
